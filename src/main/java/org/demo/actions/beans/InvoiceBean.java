@@ -1,12 +1,23 @@
 package org.demo.actions.beans;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class InvoiceBean {
+public class InvoiceBean implements Serializable {
 
     private String subject;
     private Date dateFrom;
     private Date dateTo;
+    private double grossAmount;
+
+
+    public double getGrossAmount() {
+        return grossAmount;
+    }
+
+    public void setGrossAmount(double grossAmount) {
+        this.grossAmount = grossAmount;
+    }
 
     public Date getDateFrom() {
         return dateFrom;

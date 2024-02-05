@@ -10,28 +10,28 @@ public class RegistryAction extends ActionSupport {
     @Override
     public String execute() throws Exception {
         setMessage(getText(MESSAGE));
-        setFormTittleMessage(getText(TITTLE_FORM_MESSAGE));
+        setFormTitleMessage(getText(TITLE_FORM_MESSAGE));
         return SUCCESS;
     }
 
     /**
-     * Provide default valuie for Message property.
+     * Provide default value for Message property.
      */
     public static final String MESSAGE = "hello.message";
-    public static final String TITTLE_FORM_MESSAGE = "form.tittle.message";
+    public static final String TITLE_FORM_MESSAGE = "form.title.message";
 
     /**
      * Field for Message property.
      */
     private String message;
-    private String formTittleMessage;
+    private String formTitleMessage;
 
-    public String getFormTittleMessage() {
-        return formTittleMessage;
+    public String getFormTitleMessage() {
+        return formTitleMessage;
     }
 
-    public void setFormTittleMessage(String formTittleMessage) {
-        this.formTittleMessage = formTittleMessage;
+    public void setFormTitleMessage(String formTitleMessage) {
+        this.formTitleMessage = formTitleMessage;
     }
 
     /**
