@@ -17,7 +17,7 @@
                 <div class="col-10">
                     <div class="card mt-5">
                         <div class="card-body">
-                            <h1 class="card-title">Resumen de factura: </h1><br>
+                            <h1 class="card-title">Resumen de factura</h1><br>
                             <table class="table">
                                 <tbody>
                                 <tr>
